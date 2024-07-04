@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MUSIC-PLAYER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recent Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> </i>New Playlist</h4>
+            </div>
+
+            <div class="song_menu">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="images/1.jpg" alt="">
+                    <h5>Bhsam <br>
+                        <div class="subtitle">Dada Sadhu</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="1"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="images/05.jpeg" alt="">
+                    <h5>California <br>
+                        <div class="subtitle">Cheema Y</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="2"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="images/6.jpg" alt="">
+                    <h5>Detail <br>
+                        <div class="subtitle">Deep Chambal</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Elevated<br>
+                        <div class="subtitle">Shubh</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="4"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Feelinga <br>
+                        <div class="subtitle">Akaal</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="5"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Gunda Damad <br>
+                        <div class="subtitle">Raj Mawer</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="6"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Her <br>
+                        <div class="subtitle">Shubh</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="7"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Ishqan De Rog <br>
+                        <div class="subtitle">Deep chambal</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="8"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Janab Ji <br>
+                        <div class="subtitle">Sucha Yaar</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="9"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>10</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Kahani Suno 2.O <br>
+                        <div class="subtitle">Kaifi Khalil</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="10"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>11</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Lala Ji Ki Chori <br>
+                        <div class="subtitle">Masoom Sharma</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="11"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>12</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Mainu Ishq Ho Gya Ankiyan Naal <br>
+                        <div class="subtitle">Ammy Virk</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="13"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>13</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Offshore <br>
+                        <div class="subtitle">Shubh</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="13"></i>
+                </li>
+
+                <!-- <li class="songItem">
+                    <span>14</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="14"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>15</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="15"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>16</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="16"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>17</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="17"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>18</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="18"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>19</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="19"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>20</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="20"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>21</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="21"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>22</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="22"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>23</span>
+                    <img src="01.jpg" alt="">
+                    <h5>Precious <br>
+                        <div class="subtitle">Allan Walker</div>
+                    </h5>
+                    <i class="bi playlistss bi-play-circle" id="23"></i>
+                </li> -->
+
+            </div>
+
+        </div>
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover<span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music">
+                    <div class="searchss">
+
+                         <!-- <a href="" class="themes"> -->
+                         <!-- <img src="images/1.jpg">
+                         <div class="infom">
+                            Bhasam
+                            <div class="subtitle">By Dada Sandhu</div>
+                         </div> -->
+                        <!-- </a> -->
+                    </div>
+                </div>
+
+                <div class="user">
+                    <img src="sahil 3.jpg" alt="wait...">
+                </div>
+
+            </nav>
+            <div class="content">
+                <h1>Gagan Kokri</h1>
+                <p>
+                    I am a singer, songwriter and composer based in New Delhi, India. <br>I have released songs under
+                    the name Gagan Kokri.
+                </p>
+
+                <div class="btn">
+                    <button>Play</button>
+                    <button>Follow</button>
+                </div>
+            </div>
+
+            <div class="popular_songs">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+
+                    <div class="btns">
+                        <i class="bi bi-arrow-left-circle" id="pop_left"></i>
+                        <i class="bi bi-arrow-right-circle" id="pop_right"></i>
+                    </div>
+                </div>
+                <div class="pop_songs">
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="images/1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="14"></i>
+
+                        </div>
+
+                        <h5>Precious <br>
+                            <div class="subtitle">Naggi ft</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="15"></i>
+
+                        </div>
+
+                        <h5>Raja Rani <br>
+                            <div class="subtitle">Jatinder Brar</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="16"></i>
+
+                        </div>
+
+                        <h5>No Love <br>
+                            <div class="subtitle">Shubh</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="17"></i>
+
+                        </div>
+
+                        <h5>Sochi Baitha Aa <br>
+                            <div class="subtitle">Sabba</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="18"></i>
+
+                        </div>
+
+                        <h5>Tareefan <br>
+                            <div class="subtitle">Jordan Sandhu</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="19"></i>
+
+                        </div>
+
+                        <h5>Untouchable <br>
+                            <div class="subtitle">Tegi Pannu</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="20"></i>
+
+                        </div>
+
+                        <h5>Vichola <br>
+                            <div class="subtitle">Kamal Khaira</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="21"></i>
+
+                        </div>
+
+                        <h5>Weaponz <br>
+                            <div class="subtitle">Romey Maan</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="22"></i>
+
+                        </div>
+
+                        <h5>Yaariyan <br>
+                            <div class="subtitle">Gurpreet Hehar</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="23"></i>
+
+                        </div>
+
+                        <h5>Asla <br>
+                            <div class="subtitle">Gagan Kokri</div>
+                        </h5>
+                    </li>
+
+                    <!-- <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id=""></i>
+
+                        </div>
+
+                        <h5>Asla <br>
+                            <div class="subtitle">Gagan Kokri</div>
+                        </h5>
+                    </li>
+
+                    <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id=""></i>
+
+                        </div>
+
+                        <h5>Asla <br>
+                            <div class="subtitle">Gagan Kokri</div>
+                        </h5>
+                    </li>  -->
+
+                    <!-- <li class="songItem">
+                        <div class="image_play">
+                            <img src="pop1.jpg" alt="">
+                            <i class="bi playlistss bi-play-circle" id="11"></i>
+
+                        </div>
+
+                        <h5>Asla <br>
+                            <div class="subtitle">Gagan Kokri</div>
+                        </h5>
+                    </li> -->
+
+                </div>
+            </div>
+
+            <div class="popular_artists">
+
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+
+                    <div class="btns">
+                        <i class="bi bi-arrow-left-circle" id="artist_left"></i>
+                        <i class="bi bi-arrow-right-circle" id="artist_right"></i>
+                    </div>
+                </div>
+
+                <div class="items">
+
+                    <li>
+                        <img src="images/2.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/3.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/4.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/5.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/6.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/7.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/8.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/9.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/10.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/11.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/12.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/13.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/14.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/15.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/16.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/17.jpg" alt=".....">
+                    </li>
+
+                    <li>
+                        <img src="images/18.jpg" alt=".....">
+                    </li>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="play">
+            <div class="wave" id="wave">
+
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+
+            </div>
+
+            <img src="images/23.jpg" id="playposter">
+            <h5 id="title">
+                Asla Song By
+                <div class="subtitle">
+                    Gagan Kokri
+                </div>
+            </h5>
+
+            <div class="icons">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="playss"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download id="download"><i class="bi bi-download"></i></a>
+            </div>
+
+            <span id="start">0:00</span>
+
+            <div class="bar">
+                <input type="range" id="range_bar" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+
+            <span id="end">0:50</span>
+
+            <div class="volume">
+                <i class="bi bi-volume-up-fill" id="volu_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <script src="music.js"></script>
+</body>
+
+</html>
